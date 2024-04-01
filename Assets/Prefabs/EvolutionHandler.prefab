@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9155601351652852924
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8422063458243621484}
+  - component: {fileID: 7365097227513054134}
+  m_Layer: 2
+  m_Name: EvolutionHandler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8422063458243621484
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9155601351652852924}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7365097227513054134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9155601351652852924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec74ae33233a40c4caf3648866cdca3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawner: {fileID: 11400000, guid: 323984b034883af458572cbac061ba02, type: 2}
+  orbs:
+  - {fileID: 11400000, guid: 81521147acb27484fad362df0fa25735, type: 2}
+  - {fileID: 11400000, guid: bccad44ef03987947bedce483a0e408a, type: 2}
+  - {fileID: 11400000, guid: 8465dd9b5b92243429d94b411ba1bd8f, type: 2}
+  - {fileID: 11400000, guid: 19a9938db921c8944b7d370940286cdb, type: 2}
+  - {fileID: 11400000, guid: 3cb10e8fe79a3db4aa4bd70f17f9e8bb, type: 2}
+  - {fileID: 11400000, guid: d6f3ef93eda31154a8e19133f234e6aa, type: 2}
+  - {fileID: 11400000, guid: 09b70ca852a5cab408c6a3d32ba648b0, type: 2}
+  - {fileID: 11400000, guid: d1da373237fc6c644a5bdf9d6059a147, type: 2}
+  baseLiftAmount: 0.2
+  stateListener: {fileID: 11400000, guid: 7edce09dc0f77694180e60decc890592, type: 2}
+  matternizerListener: {fileID: 11400000, guid: bbb2b091cf5beaf45ae6abdb4806af73, type: 2}

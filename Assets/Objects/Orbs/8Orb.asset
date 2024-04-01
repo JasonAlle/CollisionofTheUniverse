@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0b6cef025ef5d84cb22f6193733794a, type: 3}
+  m_Name: 8Orb
+  m_EditorClassIdentifier: 
+  tier: 7
+  tex: {fileID: 8731146150934298954, guid: d40c5a3e3ef00af4fbff7070065c85a6, type: 3}
+  score: 1000
+  essence: 100
+  renderScale: 0.9
+  collideRad: 1.92
+  orbWeight: 40

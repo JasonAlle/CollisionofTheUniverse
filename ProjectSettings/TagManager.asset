@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Orb
+  - HighOrb
+  - Blender
+  - Container
+  - Wall
+  - Floor
+  - Roof
+  - Lid
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Background
+  - Player
+  - Orb
+  - Container
+  - Bounds
+  - HighOrb
+  - Blender
+  - Lid
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 2063438195
+    locked: 0
+  - name: GameObjects
+    uniqueID: 1940243905
+    locked: 0
+  - name: UI
+    uniqueID: 676429747
+    locked: 0
